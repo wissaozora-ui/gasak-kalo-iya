@@ -6,6 +6,13 @@
   "assets": {
     "directory": "./",
     "binding": "ASSETS",
-    "run_worker_first": true
+    "run_worker_first": true,
+    "exclude": [
+      "_worker.js",
+      "wrangler.jsonc",
+      "schema.sql",
+      "README.md",
+      ".assetsignore"
+    ]
   }
 }
